@@ -467,6 +467,7 @@
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 
   <!-- @origin(aosp) @owner(los) -->
+  <project name="device/zuk/ham" revision="f26f676e33cbcc5c1af4686f57b60fecb625479a" upstream="los/lineage-16.0"/>
   <project path="art" name="platform/art" revision="8f0ff544d9e7af1a0cd3d86be4aafe443a27d4c2" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="bionic" name="platform/bionic" revision="df535c2a2fad17aa3484edd1d206ffc2cfe7ed3b" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="486c46730f36beb69d48b7a448e4fe68e5eb7b91" groups="pdk" upstream="los/lineage-16.0"/>
@@ -523,6 +524,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="cc3cfc5a361ca1988803fab410984a2e72e3b229" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" revision="030e0b8d34d9ff3689ce632b9ed3392320315d6e" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="hardware/ril" name="platform/hardware/ril" revision="cac775876fa1a79d5f84a3ee0280e71e67679d4d" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="kernel/cyanogen/msm8974" name="kernel/cyanogen/msm8974" revision="f44b4b19da1541fce8440ffa1e59cdb722cf10b5" upstream="los/lineage-16.0"/>
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="f7e4ffce49c97a5041a0734a3b5f6d29fb2d675d" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="cb87cd63aaecb6ccb4bcda28ac4dd82e1bd6301e" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="726140b5a20f4f692c76c7752350f277395ea44d" groups="pdk-fs" upstream="los/lineage-16.0"/>
@@ -633,6 +635,7 @@
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater" revision="d9fe6ee908e9b0678c243a0d974ca7e1fb6dabe0" upstream="los/lineage-16.0"/>
   <project path="packages/overlays/Lineage" name="platform/vendor/lineage/packages/overlays" revision="adb82cdcf43612ef14c41fd2b8d169e40e28745b" upstream="los/lineage-16.0"/>
   <project path="packages/providers/WeatherProvider" name="platform/packages/providers/WeatherProvider" revision="637b12e497af04788d3cf2ec2462e716d85611c7" upstream="los/lineage-16.0"/>
+  <project path="packages/resources/devicesettings" name="platform/vendor/lineage/packages/resources/devicesettings" revision="b73e3bc3f76a39ebff83729c8bf1585263de2ed8" upstream="los/lineage-16.0"/>
   <project path="prebuilts/lineage-sdk" name="platform/vendor/lineage/prebuilts/lineage-sdk" revision="cebdb660afa983da928c59662108f362fe491be9" clone-depth="1" upstream="los/lineage-16.0"/>
   <project path="system/extras/su" name="platform/system/extras/su" revision="af630887bb2c60bb964e4639f9c0cfb2ebfb870a" upstream="los/lineage-16.0"/>
   <project path="vendor/lineage" name="platform/vendor/lineage" revision="a5e776e5143895317f433da876383d8683567012" upstream="los/lineage-16.0"/>
@@ -719,4 +722,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" revision="c2c036451782b6193923be8d6311ae1a43fa4a73" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" revision="bd2b995e2259fbab65b5a134a61feadef34056eb" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" revision="3e8495d73f1a36c809a66f3af46f53ae7b37f9f0" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
+
+  <!-- @origin(i4u) @owner(i4u) -->
+  <project path="vendor/zuk" name="platform/vendor/themuppets/proprietary/zuk" revision="los/lineage-16.0"/>
 </manifest>
