@@ -723,6 +723,9 @@
   <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" revision="bd2b995e2259fbab65b5a134a61feadef34056eb" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" revision="3e8495d73f1a36c809a66f3af46f53ae7b37f9f0" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
 
+  <!-- @origin(los) @vendor(los) @owner(i4u) -->
+  <project path="external/wireless-tools" name="platform/external/wireless-tools" revision="p-common"/>
+
   <!-- @origin(i4u) @owner(i4u) -->
   <project path="vendor/zuk" name="platform/vendor/themuppets/proprietary/zuk" revision="los/lineage-16.0"/>
 </manifest>
