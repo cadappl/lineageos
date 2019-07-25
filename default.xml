@@ -655,7 +655,18 @@
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater" revision="bc3ce51fe85af90e206ca771da92bfc81fa04199" upstream="los/lineage-15.1"/>
   <project path="packages/overlays/Lineage" name="platform/vendor/lineage/packages/overlays" revision="32e0fb5b464de349b0e40c0abd6a5a0a10ae7655" upstream="los/lineage-15.1"/>
   <project path="packages/providers/WeatherProvider" name="platform/packages/providers/WeatherProvider" revision="27c890238f13207174acb9df7a10e447f3cdc86a" upstream="los/lineage-15.1"/>
+  <project path="packages/resources/devicesettings" name="platform/vendor/lineage/packages/resources/devicesettings" revision="2d657fa6b948666d5ab7badf75723affa772ac07" upstream="los/lineage-15.1"/>
   <project path="prebuilts/lineage-sdk" name="platform/prebuilts/lineage-sdk" revision="cebdb660afa983da928c59662108f362fe491be9" upstream="los/lineage-15.1"/>
   <project path="system/extras/su" name="platform/system/extras/su" revision="bffcdefa59834186b75987541930dbfa92d15a21" upstream="los/lineage-15.1"/>
   <project path="vendor/lineage" name="platform/vendor/lineage" revision="1237b90ebafeefb1fa7a765c715036eb90051b2f" upstream="los/lineage-15.1"/>
+
+  <!-- @origin(los) @owner(los) -->
+  <project path="device/sony/fusion3-common" name="device/sony/fusion3" revision="9cd0683f0eab8556660726d0f6cb8893f57a0c5e" upstream="los/lineage-15.1"/>
+  <project path="device/sony/common" name="device/sony/common" revision="150770de40e7fe9ecc3cd54bb989560394058de2" upstream="los/lineage-15.1"/>
+  <project path="device/sony/yuga" name="device/sony/yuga" revision="35e230609f943c95dc47d92b850b2ff777499482" upstream="los/lineage-15.1"/>
+  <project path="hardware/sony/thermanager" name="platform/hardware/sony/thermanager" revision="b38622b38d65613dd264ff34c1dfed5cafad56aa" upstream="los/lineage-15.1"/>
+  <project path="hardware/sony/dash" name="platform/hardware/sony/DASH" revision="abbc03a913b1338242cff3c346b1cd7f8636f096" upstream="los/lineage-15.1"/>
+  <project path="kernel/sony/apq8064" name="kernel/sony/apq8064" revision="e37f3ebb6d191fbf8f6c74c3aaf2b72e14cba474" upstream="los/lineage-15.1"/>
+  <project path="vendor/sony" name="platform/vendor/themuppets/proprietary/sony" revision="3a6dddaa74152d0694161903e45818784f711543" upstream="los/lineage-15.1"/>
 </manifest>
+
