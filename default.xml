@@ -727,5 +727,5 @@
   <project path="external/wireless-tools" name="platform/external/wireless-tools" revision="p-common"/>
 
   <!-- @origin(i4u) @owner(i4u) -->
-  <project path="vendor/zuk" name="platform/vendor/themuppets/proprietary/zuk" revision="los/lineage-16.0"/>
+  <project path="vendor/zuk" name="platform/vendor/themuppets/proprietary/zuk"/>
 </manifest>
