@@ -60,7 +60,6 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/crcalc" name="platform/external/crcalc" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/cros/system_api" name="platform/external/cros/system_api" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
-  <project path="external/curl" name="platform/external/curl" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/dagger2" name="platform/external/dagger2" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/deqp" name="platform/external/deqp" revision="refs/tags/android-9.0.0_r44" groups="pdk-fs"/>
   <project path="external/desugar" name="platform/external/desugar" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
@@ -140,12 +139,9 @@
   <project path="external/ksoap2" name="platform/external/ksoap2" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libavc" name="platform/external/libavc" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libbackup" name="platform/external/libbackup" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
-  <project path="external/libbrillo" name="platform/external/libbrillo" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libcap" name="platform/external/libcap" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libcap-ng" name="platform/external/libcap-ng" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
-  <project path="external/libchrome" name="platform/external/libchrome" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libconstrainedcrypto" name="platform/external/libconstrainedcrypto" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
-  <project path="external/libcups" name="platform/external/libcups" revision="refs/tags/android-9.0.0_r44" groups="pdk-cw-fs,pdk-fs"/>
   <project path="external/libcxx" name="platform/external/libcxx" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libcxxabi" name="platform/external/libcxxabi" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libdaemon" name="platform/external/libdaemon" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
@@ -157,7 +153,6 @@
   <project path="external/libexif" name="platform/external/libexif" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libffi" name="platform/external/libffi" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libgsm" name="platform/external/libgsm" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
-  <project path="external/libhevc" name="platform/external/libhevc" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libldac" name="platform/external/libldac" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
@@ -227,7 +222,6 @@
   <project path="external/ply" name="platform/external/ply" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/ppp" name="platform/external/ppp" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/protobuf" name="platform/external/protobuf" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
-  <project path="external/puffin" name="platform/external/puffin" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/python/cpython2" name="platform/external/python/cpython2" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/python/cpython3" name="platform/external/python/cpython3" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="external/python/futures" name="platform/external/python/futures" revision="refs/tags/android-9.0.0_r44" groups="vts,pdk"/>
@@ -333,15 +327,6 @@
   <project path="hardware/google/easel" name="platform/hardware/google/easel" revision="refs/tags/android-9.0.0_r44" groups="pdk,easel"/>
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" revision="refs/tags/android-9.0.0_r44" groups="bonito,crosshatch"/>
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
-  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk"/>
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-9.0.0_r44" groups="invensense,pdk"/>
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" revision="refs/tags/android-9.0.0_r44" groups="marvell_bt,pdk"/>
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
@@ -377,7 +362,6 @@
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" revision="refs/tags/android-9.0.0_r44" groups="pdk-fs"/>
   <project path="pdk" name="platform/pdk" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="platform_testing" name="platform/platform_testing" revision="refs/tags/android-9.0.0_r44" groups="pdk-fs,pdk-cw-fs,cts"/>
-  <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk" revision="refs/tags/android-9.0.0_r44" groups="pdk-fs"/>
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" revision="refs/tags/android-9.0.0_r44" groups="pdk-fs"/>
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
@@ -424,14 +408,12 @@
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/iot/attestation" name="platform/system/iot/attestation" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
-  <project path="system/keymaster" name="platform/system/keymaster" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/libfmq" name="platform/system/libfmq" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/libhidl" name="platform/system/libhidl" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/libhwbinder" name="platform/system/libhwbinder" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/libufdt" name="platform/system/libufdt" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/libvintf" name="platform/system/libvintf" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/media" name="platform/system/media" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
-  <project path="system/nfc" name="platform/system/nfc" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/nvram" name="platform/system/nvram" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="system/tpm" name="platform/system/tpm" revision="refs/tags/android-9.0.0_r44"/>
   <project path="test/framework" name="platform/test/framework" revision="refs/tags/android-9.0.0_r44" groups="vts,pdk"/>
@@ -447,7 +429,6 @@
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" revision="refs/tags/android-9.0.0_r44" groups="vts,pdk"/>
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" revision="refs/tags/android-9.0.0_r44" groups="vts,pdk"/>
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" revision="refs/tags/android-9.0.0_r44" groups="vts,pdk"/>
-  <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" revision="refs/tags/android-9.0.0_r44" groups="vts,pdk"/>
   <project path="toolchain/benchmark" name="toolchain/benchmark" revision="refs/tags/android-9.0.0_r44"/>
   <project path="toolchain/binutils" name="toolchain/binutils" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" revision="refs/tags/android-9.0.0_r44" groups="pdk"/>
@@ -467,12 +448,11 @@
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 
   <!-- @origin(aosp) @owner(los) -->
-  <project name="device/zuk/ham" revision="f26f676e33cbcc5c1af4686f57b60fecb625479a" upstream="los/lineage-16.0"/>
-  <project path="art" name="platform/art" revision="8f0ff544d9e7af1a0cd3d86be4aafe443a27d4c2" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="art" name="platform/art" revision="3ff04a70bf0171cdacd311e1eedfaa0debbdbb7b" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="bionic" name="platform/bionic" revision="df535c2a2fad17aa3484edd1d206ffc2cfe7ed3b" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="486c46730f36beb69d48b7a448e4fe68e5eb7b91" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="2a99d0cde307d964f40c4b4c18f42ce70b53b2c4" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="build/kati" name="platform/build/kati" revision="47b94ac5cfc5508b6c1c16c66439dd0702255b91" groups="pdk,tradefed" upstream="los/lineage-16.0"/>
-  <project path="build/make" name="platform/build" revision="8be34b658a2153ce3dc632a7656bb8df7986e75e" groups="pdk" upstream="los/lineage-16.0">
+  <project path="build/make" name="platform/build" revision="aa442da607e323c9a49a3fba00ddd85e65875470" groups="pdk" upstream="los/lineage-16.0">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -481,75 +461,77 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project path="build/soong" name="platform/build/soong" revision="6da3fddd221ccb4dda2f0134f282e0ae5da0a1fa" groups="pdk,tradefed" upstream="los/lineage-16.0">
+  <project path="build/soong" name="platform/build/soong" revision="6d326a29e504c88eac9fef7b019b620ecc3ec2f0" groups="pdk,tradefed" upstream="los/lineage-16.0">
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
     <linkfile src="root.bp" dest="Android.bp"/>
   </project>
   <project path="dalvik" name="platform/dalvik" revision="59eb8b686ac0fb299c6afd56e49c05a9f41999cf" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="development" name="platform/development" revision="9b8a35f8e0860e622a887fa26766e11f9c7de797" groups="developers,pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="development" name="platform/development" revision="dbfc71e8bff49a9ea023e82a623d6630fae779a7" groups="developers,pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="device/generic/goldfish" name="device/generic/goldfish" revision="55085eb875d9cb01a23e02305dd7b0d76a767f84" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="device/google/atv" name="device/google/atv" revision="bb7dcaaeac9d1ac77787d708c8c44607d92a2d1e" groups="device,broadcom_pdk,generic_fs,pdk" upstream="los/lineage-16.0"/>
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" revision="7823db3f77f7f1f0ed3d6aa17cbdf96a63e84a25" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" revision="880977b741f568e3de79ca26e42bbe7a404037de" groups="pdk" upstream="los/master"/>
+  <project path="external/curl" name="platform/external/curl" revision="003e003f46e625d5379194d8afdfd0a869d82a4b" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="58d48a20a42526a50d302708c4886006d1ba236c" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/elfutils" name="platform/external/elfutils" revision="4c7cca5d3f6fa9ea474ee3d3f6b707a943361fed" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" revision="bd0159ab5b65ad4d4bfe6042612badd6035cd505" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="8eea348e1c86ef18f91a2c19bcc39c8f8a68524d" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/gptfdisk" name="platform/external/gptfdisk" revision="c1ea28289f4cfde2631e1f0537a1577b3fc62e7c" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="external/icu" name="platform/external/icu" revision="c555ad46899356bea6a462d32c8d2037db42c78e" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="external/icu" name="platform/external/icu" revision="45845fb8d5dddc831b8b9a13e7645252d3e59296" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="external/libbrillo" name="platform/external/libbrillo" revision="935b3c3052b261deee8c85c14642c612996686d7" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="external/libchrome" name="platform/external/libchrome" revision="39fa767844904a3c3344c14081cd572782ed01ba" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="external/libcups" name="platform/external/libcups" revision="175d20eafcdf2958d7fe36c1d33063f5d2d626a8" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="external/libhevc" name="platform/external/libhevc" revision="bf2b18b4e8824892e37f740abb51b75951f0ecef" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/libpng" name="platform/external/libpng" revision="19908ec0e0dad4021da0206a0c11cab8e6770d83" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" revision="7d0a717ba1903101cf5ff5cc8df79ad39c20d1e9" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/mksh" name="platform/external/mksh" revision="d793597b7c901799c761cd80c0f3f1086dc3a2e2" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/one-true-awk" name="platform/external/one-true-awk" revision="9c43dddc626acbafd0dc994478cfd2ada670e61c" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/perfetto" name="platform/external/perfetto" revision="8c5ec754de77a2257feaa0de8bb77dd58e975af2" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/proguard" name="platform/external/proguard" revision="56c2bf7849d1b76d99e1c295412163bc2b6673ec" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="external/puffin" name="platform/external/puffin" revision="35a231b2e5c0fa098f8fffbf264bbfcb837ba0a7" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/selinux" name="platform/external/selinux" revision="cd407619c2eb83d871e82f6be2efab790230fedd" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/skia" name="platform/external/skia" revision="b9f8bff8e442d480469591b7ce1416735ac19d37" groups="pdk,qcom_msm8x26" upstream="los/lineage-16.0"/>
   <project path="external/tinycompress" name="platform/external/tinycompress" revision="fbe2bd5c3d670234c3c92f875986acc148e6d792" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="external/toybox" name="platform/external/toybox" revision="7d5cb84fcb885062fd497ea5a5f7ad9f4bd0bc1a" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="external/toybox" name="platform/external/toybox" revision="232850b4407974e9e3eab807688bef043fe27c42" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="external/zlib" name="platform/external/zlib" revision="2653cea279ffecbfcd145953b653be04528498b1" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="frameworks/av" name="platform/frameworks/av" revision="4d5b74c4715223a882661bfd2c2ca564a7331f8a" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="frameworks/base" name="platform/frameworks/base" revision="c854c29598fccd8bc3eb2b5a1b12c587b4c123e4" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="frameworks/native" name="platform/frameworks/native" revision="de85ffd8383b1502b3a0100f287eb664e7b90444" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="frameworks/av" name="platform/frameworks/av" revision="c4ff01c23fa4f589ec7ed386dfd9aa7446dce825" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="frameworks/base" name="platform/frameworks/base" revision="9df23a34ac38d722401578c40dc0691899e763cd" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="frameworks/native" name="platform/frameworks/native" revision="d5da683b7cc99dd68444fd6ee33632bac8275166" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" revision="bf6e0618cf1f2642923b2258969deb3fc950dadc" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" revision="2fef2b18a391bd19cd74574dc0ea6088ee3459ee" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="2bb45ebc6b66ac9368c3a51b89136eef3ec9f519" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" revision="0919027ea0151140fa595255009df3bd76c64c15" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="850817b63dce20f1ec8a8b40351be77b468cd2a2" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" revision="99728169788e8d6f66a7a45156657b151a0b2c63" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="96108864e101415d8f385d47e5bdc0dc7121eaa9" groups="pdk,broadcom_wlan" upstream="los/lineage-16.0"/>
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk" upstream="los/lineage-16.0"/>
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk" upstream="los/lineage-16.0"/>
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk" upstream="los/lineage-16.0"/>
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" revision="refs/tags/android-9.0.0_r44" groups="intel,pdk" upstream="los/lineage-16.0"/>
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="aafcb970dbebaad9842ac4eb9f857093d53eecce" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="3a10f7f16ce6db94f8a3012500203638eb956537" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="9c32a7ab2de7fe8a69ee39bdeb0aebe5b9edfe01" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="cc3cfc5a361ca1988803fab410984a2e72e3b229" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" revision="030e0b8d34d9ff3689ce632b9ed3392320315d6e" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="hardware/ril" name="platform/hardware/ril" revision="cac775876fa1a79d5f84a3ee0280e71e67679d4d" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="kernel/cyanogen/msm8974" name="kernel/cyanogen/msm8974" revision="f44b4b19da1541fce8440ffa1e59cdb722cf10b5" upstream="los/lineage-16.0"/>
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="f7e4ffce49c97a5041a0734a3b5f6d29fb2d675d" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="cb87cd63aaecb6ccb4bcda28ac4dd82e1bd6301e" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="f8ee395dc5ed28a9e865e805e8620302c57180cc" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="726140b5a20f4f692c76c7752350f277395ea44d" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="645b52293c3e683526a8148627e61a28ffaedb13" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="a309d9f39927d5719f0687c83d43b095b3fe621a" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" revision="8213808184efe37bc757e31e8f14777bed46bf57" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="e96b6ddc4b960fbd1a49660b497e99cc9a6cb1b2" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="5e5265d2db4848249f353297d3247b0f5b3bc741" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="98d5cfa801fdca430b2980c75fb967a8db115241" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="6685f8f524674d2a8cf45f35643f0dcde267f7c0" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="0a9031dbe08803e0d966f5b24461d87fbab5525d" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="a35f2d4a2b8441fbedbb31ec9530ba12b7139235" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="7c804b94a1320bf1968f6f034f108948deb8e7b2" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="f3ab62bde55980c36e4ceed71b67fa5d49735307" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" revision="172cc90d5f4db6ab9d0a1f9b8fb82543a95a0be8" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="3998bc586ee9c8753803d80793a8e0a2cee484af" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="9a9a4fa3fd12426d608ca3820e0cc02977c159fb" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" revision="c686d953dbf8a4f11f8b788f4de06bb0569cd09c" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" revision="6f35a6660d4d68a568dd43b2ecfe7e0b7fd0ad8a" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="9233b33228a297b1086078e1083262725b38f4ab" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="48f5db02f939bc745fe0c83b117904a7d80e1867" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="83a1a64b7da76dc3d0a22ffc21d5c8439738a508" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="b5a43113384f98a3be4cfb0d29c3d929abb96c2c" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="5940b33a91af0dfa9363ec7b748363afc6b1d450" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" revision="d5202ea33951811c012eeda143e805de1287989c" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="dd2462224069f1ed99baa0c9ced6581a5ca8d8ad" groups="apps_nfc,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" revision="b9ab902dfe297e5450a72ba75c6908f1646c8ebb" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="7fab21a09bb8be65ed4476ba28f35421e174a332" groups="apps_nfc,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="789e1b6cf9a1f7e0fad9b08c64ae270ec53e5eca" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" revision="f4e5f810c45649bcdb88b2fbe58f618a3dbff5e1" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" revision="1bb9d1dbdd085b53a689524b0654763db2e3a412" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" revision="41a23016daa71f7da9b5e1677d627d7da62d6935" groups="apps_se,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="ffb84a13a7606bdf7ccb133a09f18052d308c3ce" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="27ae53a73346178ce94bd97ab949fb886ede6631" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" revision="b3edeb472611d947295714f1a85a9330f9a53e6e" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="57c70acca7657b65335f7439e17789f70bdb68a4" groups="apps_stk,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" revision="66bd86163fa4bf08ca76ff7400c01f8e7d7b240c" groups="pdk-fs" upstream="los/lineage-16.0"/>
@@ -558,14 +540,14 @@
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" revision="298e87ce067f04f2564def9a1b05fc2e2ecdbf6e" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/apps/TV" name="platform/packages/apps/TV" revision="343d50fc3f230485d4be62ff6b1e35b7ce6cb04c" upstream="los/lineage-16.0"/>
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="dac32e2e95696b13b228bf7550908d5fcd6135e6" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="3506426ec661209c7f2afc6ecb027e1f7230740d" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="1b9730c1016f37999b47c45d26283afce14b7353" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="121ab4c9f32aaa07ef8c2f8b1b4473de3427976e" groups="pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="f0a347f260a42ce6fcb2a916c88742adc94e220b" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" revision="4e5f6714abefb6dd0f858b88db798d2de25c0fd5" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" revision="3327e9cabe90ed957199df60d9034fa363f1a48e" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="9b1aebd96a41d4fd7b18705a7c47f36a7049a0b4" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" revision="1288db604d7f4caa53ff8abcf3493225bb06dd0a" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="e4fbc46191ec08f517f302066ac048e897f6b726" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="3119e23a8abd4ff31a043269dff82eaecd86190e" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="bf4ac2bd6edd982f12151c0593edbb83065123c3" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="6753167ee0a2011423f37be524765f0b3a5d5156" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="5ba1ed126ca1814f0c663693fb22f558a8f571cf" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="d1edfe595a3b18f443dc2aa43bd42ffc54c7956a" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
@@ -574,27 +556,32 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" revision="3b8a13861a0a483b867ce39633284658121b35f7" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="618d1154994791f2f4c812bcbc819b437ebc5fae" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" revision="06e077a7e9e5da3dd86892041dbf85957df18a88" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" revision="2ea3c5f529904acc59d060b57050f829023027f4" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" revision="892189f16f3200e73d3d4f25d8d510779fb438fc" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="28380a287da21cf547105d6d9cf11d4dd444352a" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="590ff8a7d9a6efc8b796f9f81906d1a9fc0b912b" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
+  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="e3be1be5e46c5ef4dbec364fe8813791959a9d37" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="66baf6aed8c4acabbceea394848494a0dc8a3e4f" groups="pdk-cw-fs,pdk-fs" upstream="los/lineage-16.0"/>
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="056450283cecfc4583ef359e878deca369f19d82" groups="pdk-fs" upstream="los/lineage-16.0"/>
-  <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" revision="06eee4ea9420741f2e80497568fc6fd10ec5430f" groups="pdk-fs" upstream="aosp/pie-gsi"/>
+  <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" revision="007409a7ec0130892e5cf900b2f3414804afb5b5" groups="pdk-fs" upstream="aosp/pie-gsi"/>
+  <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk" revision="3afe81e2f554aae19112a9af263801050b9b4996" groups="pdk-fs" upstream="los/lineage-16.0"/>
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="9e01566c57a79e930fd541b459dc08065604ba63" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="system/bt" name="platform/system/bt" revision="88a701354dde85fce1295ba6f33242ecc575659c" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="system/core" name="platform/system/core" revision="74b109970a924325601658862eaef64032369534" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/bt" name="platform/system/bt" revision="a3ea3405e8dafaa926f50154f9ccdf0156816b4d" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/core" name="platform/system/core" revision="e210b70b4abe871154bfc87d837382653100734e" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="system/extras" name="platform/system/extras" revision="3b4b5a8d879b0eab3b587681590889718ceff85c" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="system/netd" name="platform/system/netd" revision="37bc18d1f6dce9b1091b4a9b420a65a052a28286" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/keymaster" name="platform/system/keymaster" revision="ce87b6dd505336500ff11d344566d0adf8f6d69d" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/netd" name="platform/system/netd" revision="09e8f9dc441c3c0f67321295d1a5a7f0ee9499ed" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/nfc" name="platform/system/nfc" revision="6faf1f1a61ac8059a30277892ef150d2fae2a7ca" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="system/security" name="platform/system/security" revision="f595c85795f837ac83e3c0cf051b4f8aa57de8a6" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="system/sepolicy" name="platform/system/sepolicy" revision="927ac412e39e8f1cbb3d622ea359baeda76496fd" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="system/timezone" name="platform/system/timezone" revision="de4a2bf99d446099bc58f1324d0967c8ec191d0d" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/sepolicy" name="platform/system/sepolicy" revision="61cd161a0a019fc4c9f5fd9bdc22df31c5c5b95e" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/timezone" name="platform/system/timezone" revision="3da5ac17d6b3f413bb43713efc2a8bc13f4e9bef" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="system/tools/aidl" name="platform/system/tools/aidl" revision="0a0b47e1e67c20f6b6d6e76a2e9abf33216446c2" groups="pdk" upstream="los/lineage-16.0"/>
   <project path="system/tools/hidl" name="platform/system/tools/hidl" revision="c7efb500f0df9a06077aba25b02a1063d2a33179" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="system/update_engine" name="platform/system/update_engine" revision="5be3b00a1a45b6926d0f4291b5ca277438671e70" groups="pdk" upstream="los/lineage-16.0"/>
-  <project path="system/vold" name="platform/system/vold" revision="0c8dc2251a7c0b3bcb50c39734f7b9503358b4d2" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/update_engine" name="platform/system/update_engine" revision="d2f600ddf2f46f2c0dfccf0eb033ae1244901ef2" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="system/vold" name="platform/system/vold" revision="0ff3b953f43252294eea79f9cb8deec9bda99bae" groups="pdk" upstream="los/lineage-16.0"/>
+  <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" revision="37b7c0921769331b643a66ecba39085dccf95aa0" groups="vts,pdk" upstream="los/lineage-16.0"/>
 
   <!-- @origin(los) @owner(los) -->
-  <project name="device/lineage/sepolicy" revision="4cd1a2f954b7655be5e5771fcdce475275f4b2b2" upstream="los/lineage-16.0"/>
+  <project name="device/lineage/sepolicy" revision="c17d1942f4999d1dda0b7c7292f4e2e5b3c02a13" upstream="los/lineage-16.0"/>
+  <project name="device/zuk/ham" revision="73b62cac17647f1ded2f1c95d36e4537d77547eb" upstream="los/lineage-16.0"/>
   <project path="external/bash" name="platform/external/bash" revision="a40f25181897b91632c72b50713e0757562a6a4a" upstream="los/lineage-16.0"/>
   <project path="external/exfat" name="platform/external/exfat" revision="e346c7cbc188543cc99655dac7da457c88e5a2d4" upstream="los/lineage-16.0"/>
   <project path="external/htop" name="platform/external/htop" revision="0c222e0b29f15baab0fd6492f3f691aeec4268ae" upstream="los/lineage-16.0"/>
@@ -611,47 +598,47 @@
   <project path="external/vim" name="platform/external/vim" revision="fc4e70ca5d25acaaa064c1f293ddd0e6c8ee40b0" upstream="los/lineage-16.0"/>
   <project path="external/zip" name="platform/external/zip" revision="c4117e141be848db220f292f08006182427cd93f" upstream="los/lineage-16.0"/>
   <project path="hardware/broadcom/nfc" name="platform/hardware/broadcom/nfc" revision="54588579843e7b00745eec2d870a0d8fbe3942d3" upstream="los/lineage-16.0"/>
-  <project path="hardware/lineage/interfaces" name="platform/hardware/lineage/interfaces" revision="afba321b46cc5d3705635bbfc3c750ed7d459579" upstream="los/lineage-16.0"/>
+  <project path="hardware/lineage/interfaces" name="platform/hardware/lineage/interfaces" revision="c0a938c741e4fdaaf0f7ea3571b3cbad45d9de93" upstream="los/lineage-16.0"/>
   <project path="hardware/lineage/lineagehw" name="platform/hardware/lineage/lineagehw" revision="3e72a53a19475052a1a5bbbd409ce78ad827cc50" upstream="los/lineage-16.0"/>
   <project path="hardware/lineage/livedisplay" name="platform/hardware/lineage/livedisplay" revision="fd1713f0bae7db27d2341ac010c8393cc7f8d643" upstream="los/lineage-16.0"/>
   <project path="hardware/lineage/telephony" name="platform/hardware/lineage/telephony" revision="4db9348aeba2afc6128b80feb57e981d3fcd17ca" upstream="los/lineage-16.0"/>
-  <project path="lineage-sdk" name="platform/vendor/lineage/sdk" revision="6068c7d3a4638c0bb65b796998b01e5f44d899cd" upstream="los/lineage-16.0"/>
-  <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="platform/packages/apps/OpenWeatherMapProvider" revision="39c4b9cc81a6ebec6da4779d05f5c3cd66471d67" upstream="los/lineage-16.0"/>
+  <project path="lineage-sdk" name="platform/vendor/lineage/sdk" revision="d952ef3afb21394bacafda6fe702186f1df9281f" upstream="los/lineage-16.0"/>
+  <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="platform/packages/apps/OpenWeatherMapProvider" revision="889cf56524dbf23cff31e7ce653299cd59cd56a4" upstream="los/lineage-16.0"/>
   <project path="packages/apps/AppDrawer" name="platform/packages/apps/AppDrawer" revision="d499a4405de78207728b463cee26526a828ead70" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/AudioFX" name="platform/packages/apps/AudioFX" revision="74d9c1b0e56075371ea56566a466a5327463567b" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Backgrounds" name="platform/packages/apps/Backgrounds" revision="21beddc75820161323c9e67be010cd608e8b3aed" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" revision="a80c79eff7a2405950847629ab2d5821f5bffba1" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="f66c26eb57133473761a7c8c7221ad24208f015a" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" revision="b74e30b2a8c808b5f1b619a36dc4ff2846ad49b9" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Jelly" name="platform/packages/apps/Jelly" revision="7ccd68957a3e3702aefe8487e19eccb5e1184b48" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/AudioFX" name="platform/packages/apps/AudioFX" revision="e6b918e8fea24f46acee679278bb7ee10bb0bd74" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Backgrounds" name="platform/packages/apps/Backgrounds" revision="ef7540857af4e5b1d41a17534878cccc19054a46" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" revision="d0cde76f89ec9e63cb6a31638d0123c45ea40acf" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="8435d6a840b07bf404de3b7337217ac05de61c6d" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" revision="b3c56e71b738a4c0b2b584a34a9077453ec0f73d" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Jelly" name="platform/packages/apps/Jelly" revision="3171c8e69831c3e3e82aa81652f43596f1665e95" upstream="los/lineage-16.0"/>
   <project path="packages/apps/LineageCustomizer" name="platform/packages/apps/LineageCustomizer" revision="902123e64d4f365749d692baa23909f216cebc82" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/LineageParts" name="platform/packages/apps/LineageParts" revision="6e96470b9d044cbfc4e9108ef5ad1980f7cec29b" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/LockClock" name="platform/packages/apps/LockClock" revision="a79f2cfd18dfe47ebae9916e704be4d17156e521" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Profiles" name="platform/packages/apps/Profiles" revision="500c17e1d32e93c6923f80f1e517d882598a5eb3" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Recorder" name="platform/packages/apps/Recorder" revision="ecf5557a9b4f39bfde52fc1808cf05f904382319" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/SetupWizard" name="platform/packages/apps/SetupWizard" revision="9a75b2bd0affe4279b3e4567f995b3bb86e1abc7" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Snap" name="platform/packages/apps/Snap" revision="f4db56cb99b7afbe76182e06dbd4a1e21c4bb203" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" revision="61ee173fa32852a8bba4810fef0c8fe87fb22802" upstream="los/lineage-16.0"/>
-  <project path="packages/apps/Updater" name="platform/packages/apps/Updater" revision="d9fe6ee908e9b0678c243a0d974ca7e1fb6dabe0" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/LineageParts" name="platform/packages/apps/LineageParts" revision="7ec2e75720624556d389304536cae4db6e37f0a2" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/LockClock" name="platform/packages/apps/LockClock" revision="218bcbdbc62c45c73a47f537cc282435461575d1" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Profiles" name="platform/packages/apps/Profiles" revision="10b75d283977b7072ae335c5f3140b8761c5acf8" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Recorder" name="platform/packages/apps/Recorder" revision="1ae9b3790f8ff34e9bf8c0f453e6d77e1557305e" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/SetupWizard" name="platform/packages/apps/SetupWizard" revision="30b301f1fe6d4f796f819200661176c250a70fa0" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Snap" name="platform/packages/apps/Snap" revision="02b6e99102f0e6385557c04d7741c47372d820ea" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" revision="572e0102e90c611af38cd135b0b522b63b8d3cd5" upstream="los/lineage-16.0"/>
+  <project path="packages/apps/Updater" name="platform/packages/apps/Updater" revision="56349fabc5dbff8a2030fd6b51ddce3f0f1a779e" upstream="los/lineage-16.0"/>
   <project path="packages/overlays/Lineage" name="platform/vendor/lineage/packages/overlays" revision="adb82cdcf43612ef14c41fd2b8d169e40e28745b" upstream="los/lineage-16.0"/>
   <project path="packages/providers/WeatherProvider" name="platform/packages/providers/WeatherProvider" revision="637b12e497af04788d3cf2ec2462e716d85611c7" upstream="los/lineage-16.0"/>
-  <project path="packages/resources/devicesettings" name="platform/vendor/lineage/packages/resources/devicesettings" revision="b73e3bc3f76a39ebff83729c8bf1585263de2ed8" upstream="los/lineage-16.0"/>
+  <project path="packages/resources/devicesettings" name="platform/vendor/lineage/packages/resources/devicesettings" revision="6f0205a368206f1c487fd85b5a565b80d9da1ed2" upstream="los/lineage-16.0"/>
   <project path="prebuilts/lineage-sdk" name="platform/vendor/lineage/prebuilts/lineage-sdk" revision="cebdb660afa983da928c59662108f362fe491be9" clone-depth="1" upstream="los/lineage-16.0"/>
   <project path="system/extras/su" name="platform/system/extras/su" revision="af630887bb2c60bb964e4639f9c0cfb2ebfb870a" upstream="los/lineage-16.0"/>
-  <project path="vendor/lineage" name="platform/vendor/lineage" revision="a5e776e5143895317f433da876383d8683567012" upstream="los/lineage-16.0"/>
+  <project path="vendor/lineage" name="platform/vendor/lineage" revision="ec5302ea4c3780f1f188798981c1f163be51487f" upstream="los/lineage-16.0"/>
 
   <!-- @orign(qcom) @owner(los) -->
-  <project path="device/qcom/sepolicy" name="device/qcom/sepolicy" revision="b1db6370f5434f777506e6e06b484c21d3865599" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
-  <project path="device/qcom/sepolicy-legacy" name="device/qcom/sepolicy-legacy" revision="9df97b51a13a0674dd709e5e64e14bd6c3ebb934" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
+  <project path="device/qcom/sepolicy" name="device/qcom/sepolicy" revision="7de06ee2bb148209b2bedb95bff87bbdbececde3" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
+  <project path="device/qcom/sepolicy-legacy" name="device/qcom/sepolicy-legacy" revision="2f39c9ead32ba51feb98ae51d1b9ce18b130dd58" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" revision="b17c84b2f251d5bf51d99a4fdf80e3f7c60666dc" upstream="los/lineage-16.0"/>
   <project path="external/ant-wireless/ant_service" name="platform/external/ant-wireless/ant_service" revision="cd87191848dd8b7b54e6f1948667ece731446a2a" upstream="los/lineage-16.0"/>
   <project path="external/ant-wireless/antradio-library" name="platform/external/ant-wireless/antradio-library" revision="85290ef0527d2f4cf82fdc3ffc290c970ca57f6b" upstream="los/lineage-16.0"/>
   <project path="external/connectivity" name="platform/external/connectivity" revision="0bcb1672a85eaa9e0e198a1aa7b5f6fe37884a7a" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="external/json-c" name="platform/external/json-c" revision="fee653cdd96a72cbc3a59b1f9e6d74bd37ab394e" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/audio-caf/apq8084" name="platform/hardware/qcom/audio" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8084"/>
-  <project path="hardware/qcom/audio-caf/msm8916" name="platform/hardware/qcom/audio" revision="48ca4c0e2e9802551a84b9c89205e698d17f271d" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8916"/>
+  <project path="hardware/qcom/audio-caf/msm8916" name="platform/hardware/qcom/audio" revision="5eaaf1e876dfe6eee0967587ecac181e96cb5b90" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8916"/>
   <project path="hardware/qcom/audio-caf/msm8952" name="platform/hardware/qcom/audio" revision="96fd041d95e229a670d928fbfb9cfeb549dacaac" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8952"/>
-  <project path="hardware/qcom/audio-caf/msm8960" name="platform/hardware/qcom/audio" revision="a1328334bfae058204c986440e002a94a42d0187" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8960"/>
+  <project path="hardware/qcom/audio-caf/msm8960" name="platform/hardware/qcom/audio" revision="5afa1930eb2c76dc7d553c13223cf650c0a29078" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8960"/>
   <project path="hardware/qcom/audio-caf/msm8974" name="platform/hardware/qcom/audio" revision="dee2005505d24d2298149acc5a473bb33740e0e7" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8974"/>
   <project path="hardware/qcom/audio-caf/msm8994" name="platform/hardware/qcom/audio" revision="685eb1975312c05398efeefd2bb45a967e436478" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8994"/>
   <project path="hardware/qcom/audio-caf/msm8996" name="platform/hardware/qcom/audio" revision="6970cfde8ec14feac27c50d108caae56835d1341" groups="qcom,qcom_audio,pdk-qcom" upstream="los/lineage-16.0-caf-8996"/>
@@ -664,25 +651,25 @@
   <project path="hardware/qcom/bt-caf" name="platform/hardware/qcom/bt" revision="96b25aa552951b59654745277547fde8a02953b5" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf"/>
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="3546438cf7632af8cf6abb62f13505f8ab668244" groups="qcom_camera,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" revision="7367dc7c41c7e04fa7b76d1d466479da12c382ba" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="501f9aed65fb939aaff01635698c171f4f1de9d0" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0"/>
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="4ddd15141f3040e39f93598694b641da7a79b896" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/display-caf/apq8084" name="platform/hardware/qcom/display" revision="dfd2336cebaa4e01d9694ec0692b3cbf065e8db6" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8084"/>
   <project path="hardware/qcom/display-caf/msm8916" name="platform/hardware/qcom/display" revision="197a40e18b003ef8c7c5049d5b2d67fa4154f57c" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8916"/>
   <project path="hardware/qcom/display-caf/msm8952" name="platform/hardware/qcom/display" revision="f38874231c09b4ca483a2a6402355c4e8f6afef4" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8952"/>
-  <project path="hardware/qcom/display-caf/msm8960" name="platform/hardware/qcom/display" revision="9db797c1ddddc0a84806786b1ec806626853248c" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8960"/>
+  <project path="hardware/qcom/display-caf/msm8960" name="platform/hardware/qcom/display" revision="28d76d195b38e982177996793e78ab799252fce3" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8960"/>
   <project path="hardware/qcom/display-caf/msm8974" name="platform/hardware/qcom/display" revision="0cc9709b80e254f0fa8d823f464eaa999344c226" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8974"/>
   <project path="hardware/qcom/display-caf/msm8994" name="platform/hardware/qcom/display" revision="4523303d95025f1097ab786bafbf75992a49ea70" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8994"/>
   <project path="hardware/qcom/display-caf/msm8996" name="platform/hardware/qcom/display" revision="44a0b38f9b32e5944879b3a1bf292b1b8a132d53" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8996"/>
-  <project path="hardware/qcom/display-caf/msm8998" name="platform/hardware/qcom/display" revision="7489d6c3e1905340dc85c6e0ec1b880a9a34ecb4" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8998"/>
+  <project path="hardware/qcom/display-caf/msm8998" name="platform/hardware/qcom/display" revision="7e778780e0eaae0d9da61caf296b015c5c3a838d" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8998"/>
   <project path="hardware/qcom/display-caf/sdm845" name="platform/hardware/qcom/display" revision="9a95e92be19bda6f08281e8ee1fc21f9121b46b8" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-845"/>
-  <project path="hardware/qcom/display-caf/sm8150" name="platform/hardware/qcom/display" revision="a1f2b3ff7270a46dec3876542ed28bd69048c62b" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8150"/>
-  <project path="hardware/qcom/fm" name="platform/hardware/qcom/fm" revision="647ae02ab6c4824995ac41918e1f37b236063987" groups="qcom,qcom_fm" upstream="los/lineage-16.0"/>
+  <project path="hardware/qcom/display-caf/sm8150" name="platform/hardware/qcom/display" revision="54a97e84ab220dfd7ba3cc66dd40b8f248aa9ea4" groups="pdk-qcom,qcom,qcom_display" upstream="los/lineage-16.0-caf-8150"/>
+  <project path="hardware/qcom/fm" name="platform/hardware/qcom/fm" revision="2cf84a8a5c5d2f16293953f67e8a0fca99e32623" groups="qcom,qcom_fm" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="a62882c9ec20c2066d39dc90f5e6eb4bbf7c40d0" groups="qcom,qcom_gps,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="c7a936515a2b4232cf3688489ce7c62403f8e15e" groups="qcom,qcom_keymaster,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="ef30d8cfa9082e9953d4b2657e6f2f9ed44db294" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/media-caf/apq8084" name="platform/hardware/qcom/media" revision="2829c41c4516fe423c2692ef49d4b1ebf2e95f19" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf-8084"/>
   <project path="hardware/qcom/media-caf/msm8916" name="platform/hardware/qcom/media" revision="b3666b522169bd36a0e33b6c936771d65b7b2bc2" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf-8916"/>
   <project path="hardware/qcom/media-caf/msm8952" name="platform/hardware/qcom/media" revision="bf8e6f43599d7ab49a3b3ae22dc1401070688149" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf-8952"/>
-  <project path="hardware/qcom/media-caf/msm8960" name="platform/hardware/qcom/media" revision="652f261c26957423d67d6f009cbf2d1c54b49da8" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf-8960"/>
+  <project path="hardware/qcom/media-caf/msm8960" name="platform/hardware/qcom/media" revision="6479bd51a8b45a926a196117d3be45f21734ca76" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf-8960"/>
   <project path="hardware/qcom/media-caf/msm8974" name="platform/hardware/qcom/media" revision="cc77d9abbe4b0fdbe1561b2acfce8754db1ed444" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf-8974"/>
   <project path="hardware/qcom/media-caf/msm8994" name="platform/hardware/qcom/media" revision="6cda4de2075d703ad4be13d952ac3e52078f895b" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf-8994"/>
   <project path="hardware/qcom/media-caf/msm8996" name="platform/hardware/qcom/media" revision="406a31fc933bebb4968bdaf4ba1a61fa225a360d" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf-8996"/>
@@ -693,12 +680,12 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp"/>
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk"/>
   </project>
-  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" revision="d87c2ee912a99b8e97f608139cf7bf98f6ae347c" groups="qcom_sdm845" upstream="los/lineage-16.0"/>
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" revision="37fa06bda057e73ac24d62526385867e6e8c622b" groups="qcom_sdm845" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" revision="7db5efaeb5ce5b7c581623ee699e3bad39a933fe" groups="vendor,qcom_sdm845" upstream="los/lineage-16.0">
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp"/>
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk"/>
   </project>
-  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" revision="2b361a0cf5c8c716b0ced56131d36070e845d013" groups="qcom_sdm845" upstream="los/lineage-16.0"/>
+  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" revision="7508c324b79d1a9e448e211ffbe2e144d714eeb4" groups="qcom_sdm845" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" revision="236e6c3dddd1e19d1fac881128789d760e133c30" groups="qcom_sdm845" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" revision="264e4ba1ced98d02e1be33852ff395fc6212a615" groups="qcom_sdm845" upstream="los/lineage-16.0"/>
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" revision="b9d9e99703d662976078887d105644ccd7d03759" groups="qcom_sdm845" upstream="los/lineage-16.0"/>
@@ -709,14 +696,14 @@
   <project path="hardware/qcom/wlan-caf" name="platform/hardware/qcom/wlan" revision="0a614e238894147b87eb5431f640d6c3d9f984ef" groups="qcom_wlan,pdk-qcom" upstream="los/lineage-16.0-caf"/>
   <project path="hardware/ril-caf" name="platform/hardware/ril" revision="b475875975d1b576511df391f75125593b3353ac" groups="qcom,pdk-qcom" upstream="los/lineage-16.0-caf"/>
   <project path="system/tools/dtbtool" name="platform/system/tools/dtbtool" revision="a2b9e476be722a49ef7a056a0548072cb6babb75" upstream="los/lineage-16.0"/>
-  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" revision="aeec5391e4786389b75bc6bbd485145fcb18f740" upstream="los/lineage-16.0"/>
+  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" revision="7de911d60381378ad44e5dbf6705e099ce8b93a6" upstream="los/lineage-16.0"/>
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform/vendor/nxp/opensource/external/libnfc-nci" revision="8435d02ad0712a40b17ab1cd4a9d581eb6453b35" upstream="los/lineage-16.0"/>
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform/vendor/nxp/opensource/frameworks" revision="738adccc1f82badf48b3abd80cd1b0f9cecbdc52" upstream="los/lineage-16.0"/>
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform/vendor/nxp/opensource/packages/apps/Nfc" revision="fcd61207a3f172fdf80d58a0fbf58a1df71f685a" upstream="los/lineage-16.0"/>
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform/vendor/nxp/opensource/packages/apps/Nfc" revision="6d96848e9f0caef32dd2986701480165c840254c" upstream="los/lineage-16.0"/>
   <project path="vendor/nxp/opensource/halimpl" name="platform/vendor/nxp/opensource/halimpl" revision="460e28ddbf3a2aaff7125dd53c0913fed0b7a12d" upstream="los/lineage-16.0"/>
   <project path="vendor/nxp/opensource/hidlimpl" name="platform/vendor/nxp/opensource/hidlimpl" revision="eb322e9b3178afe5114d4a8a678b60a8dfe3ebb4" upstream="los/lineage-16.0"/>
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform/vendor/nxp/interfaces/opensource/nfc" revision="4713eca7afda44da1e9cb31645f31905ea05e53d" upstream="los/lineage-16.0"/>
-  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" revision="10da32c61506e378d66a6902cfca4e880092a16a" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
+  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" revision="acf624493aae07a82ff17723e85a8fdbfc4c3166" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform/vendor/qcom-opensource/cryptfs_hw" revision="90a5c1b81b8805679ce122513b6a56b7fd2105f6" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" revision="4f0ea34939709448d1886556b3d9ddd61ae808d8" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
   <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" revision="c2c036451782b6193923be8d6311ae1a43fa4a73" groups="qcom,pdk-qcom" upstream="los/lineage-16.0"/>
